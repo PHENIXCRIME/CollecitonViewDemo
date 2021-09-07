@@ -16,6 +16,8 @@
 		BD104D3A26E7624D00D50A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD104D3826E7624D00D50A38 /* LaunchScreen.storyboard */; };
 		BD104D4526E7624D00D50A38 /* CollecitonViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD104D4426E7624D00D50A38 /* CollecitonViewDemoTests.swift */; };
 		BD104D5026E7624D00D50A38 /* CollecitonViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD104D4F26E7624D00D50A38 /* CollecitonViewDemoUITests.swift */; };
+		BD104D5E26E762BE00D50A38 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD104D5D26E762BE00D50A38 /* CollectionCell.swift */; };
+		BD104D6026E762C800D50A38 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD104D5F26E762C800D50A38 /* CollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		BD104D4B26E7624D00D50A38 /* CollecitonViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollecitonViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD104D4F26E7624D00D50A38 /* CollecitonViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollecitonViewDemoUITests.swift; sourceTree = "<group>"; };
 		BD104D5126E7624D00D50A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD104D5D26E762BE00D50A38 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		BD104D5F26E762C800D50A38 /* CollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				BD104D2A26E7624B00D50A38 /* AppDelegate.swift */,
 				BD104D2C26E7624B00D50A38 /* SceneDelegate.swift */,
 				BD104D2E26E7624B00D50A38 /* ViewController.swift */,
+				BD104D5D26E762BE00D50A38 /* CollectionCell.swift */,
+				BD104D5F26E762C800D50A38 /* CollectionCell.xib */,
 				BD104D3026E7624B00D50A38 /* Main.storyboard */,
 				BD104D3626E7624D00D50A38 /* Assets.xcassets */,
 				BD104D3826E7624D00D50A38 /* LaunchScreen.storyboard */,
@@ -237,6 +243,7 @@
 				BD104D3A26E7624D00D50A38 /* LaunchScreen.storyboard in Resources */,
 				BD104D3726E7624D00D50A38 /* Assets.xcassets in Resources */,
 				BD104D3226E7624B00D50A38 /* Main.storyboard in Resources */,
+				BD104D6026E762C800D50A38 /* CollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +272,7 @@
 				BD104D2B26E7624B00D50A38 /* AppDelegate.swift in Sources */,
 				BD104D2D26E7624B00D50A38 /* SceneDelegate.swift in Sources */,
 				BD104D3526E7624B00D50A38 /* CollecitonViewDemo.xcdatamodeld in Sources */,
+				BD104D5E26E762BE00D50A38 /* CollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
